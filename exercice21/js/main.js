@@ -1,4 +1,5 @@
-$("div").animate(function(){
-  var wsquare = "";
-  wsquare += "Width: " + $("#square").width(500) 
+$("button").click(function(){
+  $("#square").animate({
+      width: '+=500px'
+  }, 3000);
 });
